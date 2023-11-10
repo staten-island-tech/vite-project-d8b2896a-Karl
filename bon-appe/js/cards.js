@@ -1,0 +1,1 @@
+const card = ["F18", "jet"];
