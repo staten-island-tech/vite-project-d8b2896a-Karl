@@ -1,4 +1,5 @@
 import "../styles/style.css";
+import "../styles/array.css";
 import { DOMSelectors } from "./Dom";
 import { deleteCards, insertAirForce, insertArmy, insertNavy, insertWeapons } from "./ribbon";
 

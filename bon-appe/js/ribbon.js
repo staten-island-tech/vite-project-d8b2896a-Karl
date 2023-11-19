@@ -60,5 +60,5 @@ function deleteCards () {
     weapon.forEach((stuff) => stuff.remove());    
 }
 
-export { insertNavy, insertArmy, insertAirForce, insertWeapons, deleteCards }
+export { insertNavy, insertArmy, insertAirForce, insertWeapons, deleteCards };
 

@@ -51,32 +51,32 @@ const cards = [
         name: "F16 fighter jet",
         division: "air force",
         speed: "fast",
-        usage: ["combat",""],
-        image: "",
+        usage: ["combat","attack"],
+        image: "../F16-fighter.webp",
 
     },
     {
-        name: "",
-        division: "",
-        speed: "",
-        usage: ["",""],
-        image: "",
+        name: "F22 raptor",
+        division: "air force",
+        speed: "fast",
+        usage: ["combat","attack"],
+        image: "f22-raptor.jpg",
 
     },
     {
-        name: "",
-        division: "",
-        speed: "",
-        usage: ["",""],
-        image: "",
+        name: "HEMTT transport vehicle",
+        division: "army",
+        speed: "medium",
+        usage: ["transport","support"],
+        image: "../HEMTT-transport.jpg",
 
     },
     {
-        name: "",
-        division: "",
-        speed: "",
-        usage: ["",""],
-        image: "",
+        name: "DDG 51 Arleigh Burke destroyer",
+        division: "navy",
+        speed: "medium",
+        usage: ["escort","defense"],
+        image: "../DDG-51-Destroyer.jpg",
 
     },
     {
@@ -216,3 +216,5 @@ const cards = [
 
     },
 ]
+
+export { cards }
