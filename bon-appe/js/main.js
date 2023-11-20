@@ -1,12 +1,39 @@
-import "../styles/style.css"
-
-document.querySelector(".theme").addEventListener("click", function() {
-  console.log("works")
-})
-
+import "../styles/style.css";
+import "../styles/array.css";
+import { DOMSelectors } from "./Dom";
+import { deleteCards, insertAirForce, insertArmy, insertNavy, insertWeapons } from "./ribbon";
 
 
+document.querySelector("#theme-buttons").addEventListener("click", function() {
+  if(document.body.classList.contains("blue")) {
+    document.body.classList.add("red");
+    document.body.classList.remove("blue");
+  }
+  else {
+    document.body.classList.add("blue");
+    document.body.classList.remove("red");
+  }
+});
 
+DOMSelectors.navy.addEventListener("click", function () {
+  deleteCards();
+  insertNavy();
+});
+
+DOMSelectors.army.addEventListener("click", function () {
+  deleteCards();
+  insertArmy();
+});
+
+DOMSelectors.air.addEventListener("click", function () {
+  deleteCards();
+  insertAirForce();
+});
+
+DOMSelectors.weapon.addEventListener("click", function () {
+  deleteCards();
+  insertWeapons();
+});
 
 
 
