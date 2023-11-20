@@ -16,7 +16,7 @@ const cards = [
 
     },
     {
-        name: "abram tank",
+        name: "Abram tank",
         division: "army",
         speed: "medium",
         usage: ["artillery","combat"],
@@ -24,7 +24,7 @@ const cards = [
 
     },
     {
-        name: "anzac class frigate",
+        name: "Anzac class frigate",
         division: "navy",
         speed: "medium",
         usage: ["defense","support"],
@@ -40,7 +40,7 @@ const cards = [
 
     },
     {
-        name: "cyclone class patrol boat",
+        name: "Cyclone Class Patrol Boat",
         division: "navy",
         speed: "medium",
         usage: ["security","defense"],
@@ -48,7 +48,7 @@ const cards = [
 
     },
     {
-        name: "F16 fighter jet",
+        name: "F16 Fighter Jet",
         division: "air force",
         speed: "fast",
         usage: ["combat","attack"],
@@ -56,7 +56,7 @@ const cards = [
 
     },
     {
-        name: "F22 raptor",
+        name: "F22 Raptor",
         division: "air force",
         speed: "fast",
         usage: ["combat","attack"],
@@ -64,7 +64,7 @@ const cards = [
 
     },
     {
-        name: "HEMTT transport vehicle",
+        name: "HEMTT Transport Vehicle",
         division: "army",
         speed: "medium",
         usage: ["transport","support"],
@@ -72,7 +72,7 @@ const cards = [
 
     },
     {
-        name: "DDG 51 Arleigh Burke destroyer",
+        name: "DDG 51 Arleigh Burke Destroyer",
         division: "navy",
         speed: "medium",
         usage: ["escort","defense"],
@@ -80,7 +80,7 @@ const cards = [
 
     },
     {
-        name: "LAV light armored vehicle",
+        name: "LAV Light Armored Vehicle",
         division: "army",
         speed: "fast",
         usage: ["combat","support"],
@@ -88,7 +88,7 @@ const cards = [
 
     },
     {
-        name: "LMTV light utility truck",
+        name: "LMTV Light Utility Truck",
         division: "army",
         speed: "fast",
         usage: ["transport","support"],
@@ -96,7 +96,7 @@ const cards = [
 
     },
     {
-        name: "LMXT refuler",
+        name: "LMXT Refuler",
         division: "air force",
         speed: "fast",
         usage: ["support","transport"],
@@ -104,7 +104,7 @@ const cards = [
 
     },
     {
-        name: "M2 browning",
+        name: "M2 Browning",
         division: "weapon",
         speed: "fast bullet",
         usage: ["artillery","tank"],
@@ -112,7 +112,7 @@ const cards = [
 
     },
     {
-        name: "m4 carbine",
+        name: "M4 Carbine",
         division: "weapon",
         speed: "fast",
         usage: ["assult","rifle"],
@@ -120,99 +120,99 @@ const cards = [
 
     },
     {
-        name: "",
-        division: "",
-        speed: "",
-        usage: ["",""],
-        image: "",
+        name: "M107 Sniper Rifle",
+        division: "weapon",
+        speed: "slow",
+        usage: ["snipe","cover"],
+        image: "../M107-sniper-rifle.jpg",
 
     },
     {
-        name: "",
-        division: "",
-        speed: "",
-        usage: ["",""],
-        image: "",
+        name: "M142 HIMARS Rocket System",
+        division: "weapon",
+        speed: "fast",
+        usage: ["artillery","strike"],
+        image: "../m142-HIMARS.jpg",
 
     },
     {
-        name: "",
-        division: "",
-        speed: "",
-        usage: ["",""],
-        image: "",
+        name: "M160 Mine Clearance System",
+        division: "weapon",
+        speed: "slow",
+        usage: ["support","clearance"],
+        image: "../M160-mine-clearance.jpg",
 
     },
     {
-        name: "",
-        division: "",
-        speed: "",
-        usage: ["",""],
-        image: "",
+        name: "M224 Mortar Launcher",
+        division: "weapon",
+        speed: "medium",
+        usage: ["artillery","combat"],
+        image: "../m224-mortar.jpg",
 
     },
     {
-        name: "",
-        division: "",
-        speed: "",
-        usage: ["",""],
-        image: "",
+        name: "MH-60R Sea Hawk",
+        division: "navy",
+        speed: "fast",
+        usage: ["support","combat"],
+        image: "../mh-60r-sea-hawk.jpg",
 
     },
     {
-        name: "",
-        division: "",
-        speed: "",
-        usage: ["",""],
-        image: "",
+        name: "MK-19 Grenade Launcher",
+        division: "weapon",
+        speed: "medium",
+        usage: ["artillery","combat"],
+        image: "../mk-19-grenade-launcher.jpg",
 
     },
     {
-        name: "",
-        division: "",
-        speed: "",
-        usage: ["",""],
-        image: "",
+        name: "MQ 9 Reaper UAV",
+        division: "air force",
+        speed: "fast",
+        usage: ["combat","convoy"],
+        image: "../mq-9-reaper.webp",
 
     },
     {
-        name: "",
-        division: "",
-        speed: "",
-        usage: ["",""],
-        image: "",
+        name: "Nimitz Class Aircraft Carrier",
+        division: "navy",
+        speed: "medium",
+        usage: ["defense","carrier"],
+        image: "../nimitz-class-aircraft-carrier",
 
     },
     {
-        name: "",
-        division: "",
-        speed: "",
-        usage: ["",""],
-        image: "",
+        name: "Ohio Class Submarine",
+        division: "navy",
+        speed: "medium",
+        usage: ["combat","support"],
+        image: "../Ohio-Class-submarine.webp",
 
     },
     {
-        name: "",
-        division: "",
-        speed: "",
-        usage: ["",""],
-        image: "",
+        name: "PAC 3 Patriot System",
+        division: "weapon",
+        speed: "fast",
+        usage: ["artillery","combat"],
+        image: "../PAC-3-patriot.jpg",
 
     },
     {
-        name: "",
-        division: "",
-        speed: "",
-        usage: ["",""],
-        image: "",
+        name: "Ticonderoga Class Cruisers",
+        division: "navy",
+        speed: "medium",
+        usage: ["combat","escort"],
+        image: "../ticonderoga-class-cruisers.jpg",
 
     },
     {
-        name: "",
-        division: "",
-        speed: "",
-        usage: ["",""],
-        image: "",
+        name: "UUV",
+        division: "navy",
+        speed: "medium",
+        usage: ["scout","support"],
+        image: "../UUV-navy.jpg",
 
     },
 ]
