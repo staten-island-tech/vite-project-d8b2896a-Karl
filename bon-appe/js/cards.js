@@ -88,35 +88,35 @@ const cards = [
 
     },
     {
-        name: "",
-        division: "",
-        speed: "",
-        usage: ["",""],
-        image: "",
+        name: "LMTV light utility truck",
+        division: "army",
+        speed: "fast",
+        usage: ["transport","support"],
+        image: "lmtv-m1078.jpg",
 
     },
     {
-        name: "",
-        division: "",
-        speed: "",
-        usage: ["",""],
-        image: "",
+        name: "LMXT refuler",
+        division: "air force",
+        speed: "fast",
+        usage: ["support","transport"],
+        image: "../lmvt-m1078.jpg",
 
     },
     {
-        name: "",
-        division: "",
-        speed: "",
-        usage: ["",""],
-        image: "",
+        name: "M2 browning",
+        division: "weapon",
+        speed: "fast bullet",
+        usage: ["artillery","tank"],
+        image: "../m2-browning.jpg",
 
     },
     {
-        name: "",
-        division: "",
-        speed: "",
-        usage: ["",""],
-        image: "",
+        name: "m4 carbine",
+        division: "weapon",
+        speed: "fast",
+        usage: ["assult","rifle"],
+        image: "../M4-Carbine.webp",
 
     },
     {
