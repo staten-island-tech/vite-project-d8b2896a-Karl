@@ -56,6 +56,6 @@ DOMSelectors.weapon.addEventListener("click", function () {
       Click on the Vite logo to learn more
     </p>
   </div>
-`
+/* `
 
 setupCounter(document.querySelector('#counter')) */
