@@ -80,11 +80,11 @@ const cards = [
 
     },
     {
-        name: "",
-        division: "",
-        speed: "",
-        usage: ["",""],
-        image: "",
+        name: "LAV light armored vehicle",
+        division: "army",
+        speed: "fast",
+        usage: ["combat","support"],
+        image: "../lav-light-armored-veh.jpg",
 
     },
     {
