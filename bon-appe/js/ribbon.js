@@ -3,7 +3,7 @@ import { DOMSelectors } from "./Dom";
 
 function insertNavy() {
     const find = cards.filter((stuff) => stuff.division.includes("navy"));
-    find.forEach((stuff) => DOMSelectors.card.insertAdjacentHTML("beforeend",
+    find.forEach((stuff) => DOMSelectors.cards.insertAdjacentHTML("beforeend",
     `<div class="card" id="navy">
         <h2 class="card-name"> ${stuff.name}</h2>
         <img src="${stuff.image}" alt="${stuff.name}" class="picture">
@@ -15,9 +15,10 @@ function insertNavy() {
 
 function insertArmy() {
     const find = cards.filter((stuff) => stuff.division.includes("army"));
-    find.forEach((stuff) => DOMSelectors.card.insertAdjacentHTML("beforeend",
+    find.forEach((stuff) => DOMSelectors.cards.insertAdjacentHTML("beforeend",
     `<div class="card" id="army">
         <h2 class="card-name"> ${stuff.name}</h2>
+        <div>
         <img src="${stuff.image}" alt="${stuff.name}" class="picture">
         <h3 class="info"> ${stuff.speed}, ${stuff.usage}</h3>
     </div>
@@ -27,7 +28,7 @@ function insertArmy() {
 
 function insertAirForce() {
     const find = cards.filter((stuff) => stuff.division.includes("air force"));
-    find.forEach((stuff) => DOMSelectors.card.insertAdjacentHTML("beforeend",
+    find.forEach((stuff) => DOMSelectors.cards.insertAdjacentHTML("beforeend",
     `<div class="card" id="air-force">
         <h2 class="card-name"> ${stuff.name}</h2>
         <img src="${stuff.image}" alt="${stuff.name}" class="picture">
@@ -39,7 +40,7 @@ function insertAirForce() {
 
 function insertWeapons() {
     const find = cards.filter((stuff) => stuff.division.includes("weapon"));
-    find.forEach((stuff) => DOMSelectors.card.insertAdjacentHTML("beforeend",
+    find.forEach((stuff) => DOMSelectors.cards.insertAdjacentHTML("beforeend",
     `<div class="card" id="weapons">
         <h2 class="card-name"> ${stuff.name}</h2>
         <img src="${stuff.image}" alt="${stuff.name}" class="picture">

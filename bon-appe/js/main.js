@@ -58,4 +58,5 @@ DOMSelectors.weapon.addEventListener("click", function () {
   </div>
 `
 
-setupCounter(document.querySelector('#counter')) */
+/* setupCounter(document.querySelector('#counter')) 
+ */
