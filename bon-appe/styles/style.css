@@ -1,11 +1,25 @@
 :root {
   --blue:#2447e2;
-  --red: #f8717f;
+  --light-blue: rgb(102, 168, 255);
+  --dark-red: #e7273a;
+  --light-red: #e97979;
 
   --primary: var(--blue);
   --secondary: var(--red);
 
 }
+
+.blue {
+
+  --primary: var (--red);
+  background-color: var(--primary);
+}
+
+.red {
+  background-color: var(--secondary);
+}
+
+
 .theme {
   background-color: var(--primary);
 }
