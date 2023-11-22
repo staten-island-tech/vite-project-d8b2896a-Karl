@@ -6,8 +6,7 @@
   --secondary: var(--red);
 
 }
-<<<<<<< Updated upstream
-=======
+
 
 #theme-button {
   --primary: var(--blue);
@@ -26,8 +25,6 @@
   --secondary: var(--dark-red);
 }
 
-
->>>>>>> Stashed changes
 .theme {
   background-color: var(--primary);
 }
