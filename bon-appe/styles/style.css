@@ -6,6 +6,28 @@
   --secondary: var(--red);
 
 }
+<<<<<<< Updated upstream
+=======
+
+#theme-button {
+  --primary: var(--blue);
+  --secondary: var(--red);
+  }
+
+
+.blue {
+  --primary: var(--blue);
+  --secondary: var(--light-blue);
+  
+}
+
+.red {
+  --primary: var(--dark-red);
+  --secondary: var(--dark-red);
+}
+
+
+>>>>>>> Stashed changes
 .theme {
   background-color: var(--primary);
 }
