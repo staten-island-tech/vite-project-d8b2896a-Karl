@@ -4,7 +4,7 @@ import { DOMSelectors } from "./Dom";
 import { deleteCards, insertAirForce, insertArmy, insertNavy, insertWeapons } from "./ribbon";
 
 
-document.querySelector("#theme-buttons").addEventListener("click", function() {
+document.querySelector("#theme-button").addEventListener("click", function() {
   if(document.body.classList.contains("blue")) {
     document.body.classList.add("red");
     document.body.classList.remove("blue");
