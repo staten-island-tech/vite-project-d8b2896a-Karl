@@ -1,3 +1,14 @@
+
+body,
+html,
+* {
+  font-size: 25px;
+  box-sizing: border-box;
+  margin: 20px;
+  padding: 0px;
+}
+
+
 :root {
   --blue:#2447e2;
   --red: #f8717f;
