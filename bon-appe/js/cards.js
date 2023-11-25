@@ -4,7 +4,7 @@ const cards = [
         division: "air force",
         speed: "fast",
         usage: ["gunner","support"],
-        image: "../A-10-warthog.jpg",
+        image: "/A-10-warthog.jpg",
 
     },
     {
@@ -12,7 +12,7 @@ const cards = [
         division: "navy",
         speed: "medium",
         usage: ["transport","support"],
-        image: "../AAV-amphibious-craft.jpg",
+        image: "/AAV-amphibious-craft.jpg",
 
     },
     {
@@ -20,7 +20,7 @@ const cards = [
         division: "army",
         speed: "medium",
         usage: ["artillery","combat"],
-        image: "../abram-tank.jpg",
+        image: "/abram-tank.jpg",
 
     },
     {
@@ -28,7 +28,7 @@ const cards = [
         division: "navy",
         speed: "medium",
         usage: ["defense","support"],
-        image: "../anzac-class-frigate.jpg",
+        image: "/anzac-class-frigate.jpg",
 
     },
     {
@@ -36,7 +36,7 @@ const cards = [
         division: "air force",
         speed: "fast",
         usage: ["Artillery"," Bomber"],
-        image: "../B2-Bomber.jpg",
+        image: "/B2-Bomber.jpg",
 
     },
     {
@@ -44,7 +44,7 @@ const cards = [
         division: "navy",
         speed: "medium",
         usage: ["security","defense"],
-        image: "../cyclone-class-patrol.jpg",
+        image: "/cyclone-class-patrol.jpg",
 
     },
     {
@@ -52,7 +52,7 @@ const cards = [
         division: "air force",
         speed: "fast",
         usage: ["combat","attack"],
-        image: "../F16-fighter.webp",
+        image: "/F16-fighter.webp",
 
     },
     {
@@ -60,7 +60,7 @@ const cards = [
         division: "air force",
         speed: "fast",
         usage: ["combat","attack"],
-        image: "f22-raptor.jpg",
+        image: "/f22-raptor.jpg",
 
     },
     {
@@ -68,7 +68,7 @@ const cards = [
         division: "army",
         speed: "medium",
         usage: ["transport","support"],
-        image: "../HEMTT-transport.jpg",
+        image: "/HEMTT-transport.jpg",
 
     },
     {
@@ -76,7 +76,7 @@ const cards = [
         division: "navy",
         speed: "medium",
         usage: ["escort","defense"],
-        image: "../DDG-51-Destroyer.jpg",
+        image: "/DDG-51-Destroyer.jpg",
 
     },
     {
@@ -84,7 +84,7 @@ const cards = [
         division: "army",
         speed: "fast",
         usage: ["combat","support"],
-        image: "../lav-light-armored-veh.jpg",
+        image: "/lav-light-armored-veh.jpg",
 
     },
     {
@@ -92,7 +92,7 @@ const cards = [
         division: "army",
         speed: "fast",
         usage: ["transport","support"],
-        image: "lmtv-m1078.jpg",
+        image: "/lmtv-m1078.jpg",
 
     },
     {
@@ -100,7 +100,7 @@ const cards = [
         division: "air force",
         speed: "fast",
         usage: ["support","transport"],
-        image: "../lmvt-m1078.jpg",
+        image: "/lmvt-m1078.jpg",
 
     },
     {
@@ -108,7 +108,7 @@ const cards = [
         division: "weapon",
         speed: "fast bullet",
         usage: ["artillery","tank"],
-        image: "../m2-browning.jpg",
+        image: "/m2-browning.jpg",
 
     },
     {
@@ -116,7 +116,7 @@ const cards = [
         division: "weapon",
         speed: "fast",
         usage: ["assult","rifle"],
-        image: "../M4-Carbine.webp",
+        image: "/M4-Carbine.webp",
 
     },
     {
@@ -124,7 +124,7 @@ const cards = [
         division: "weapon",
         speed: "slow",
         usage: ["snipe","cover"],
-        image: "../M107-sniper-rifle.jpg",
+        image: "/M107-sniper-rifle.jpg",
 
     },
     {
@@ -132,7 +132,7 @@ const cards = [
         division: "weapon",
         speed: "fast",
         usage: ["artillery","strike"],
-        image: "../m142-HIMARS.jpg",
+        image: "/m142-HIMARS.jpg",
 
     },
     {
@@ -140,7 +140,7 @@ const cards = [
         division: "weapon",
         speed: "slow",
         usage: ["support","clearance"],
-        image: "../M160-mine-clearance.jpg",
+        image: "/M160-mine-clearance.jpg",
 
     },
     {
@@ -148,7 +148,7 @@ const cards = [
         division: "weapon",
         speed: "medium",
         usage: ["artillery","combat"],
-        image: "../m224-mortar.jpg",
+        image: "/m224-mortar.jpg",
 
     },
     {
@@ -156,7 +156,7 @@ const cards = [
         division: "navy",
         speed: "fast",
         usage: ["support","combat"],
-        image: "../mh-60r-sea-hawk.jpg",
+        image: "/mh-60r-sea-hawk.jpg",
 
     },
     {
@@ -164,7 +164,7 @@ const cards = [
         division: "weapon",
         speed: "medium",
         usage: ["artillery","combat"],
-        image: "../mk-19-grenade-launcher.jpg",
+        image: "/mk-19-grenade-launcher.jpg",
 
     },
     {
@@ -172,7 +172,7 @@ const cards = [
         division: "air force",
         speed: "fast",
         usage: ["combat","convoy"],
-        image: "../mq-9-reaper.webp",
+        image: "/mq-9-reaper.webp",
 
     },
     {
@@ -180,7 +180,7 @@ const cards = [
         division: "navy",
         speed: "medium",
         usage: ["defense","carrier"],
-        image: "../nimitz-class-aircraft-carrier",
+        image: "/nimitz-class-aircraft-carrier",
 
     },
     {
@@ -188,7 +188,7 @@ const cards = [
         division: "navy",
         speed: "medium",
         usage: ["combat","support"],
-        image: "../Ohio-Class-submarine.webp",
+        image: "/Ohio-Class-submarine.webp",
 
     },
     {
@@ -196,7 +196,7 @@ const cards = [
         division: "weapon",
         speed: "fast",
         usage: ["artillery","combat"],
-        image: "../PAC-3-patriot.jpg",
+        image: "/PAC-3-patriot.jpg",
 
     },
     {
@@ -204,7 +204,7 @@ const cards = [
         division: "navy",
         speed: "medium",
         usage: ["combat","escort"],
-        image: "../ticonderoga-class-cruisers.jpg",
+        image: "/ticonderoga-class-cruisers.jpg",
 
     },
     {
@@ -212,9 +212,9 @@ const cards = [
         division: "navy",
         speed: "medium",
         usage: ["scout","support"],
-        image: "../UUV-navy.jpg",
+        image: "/UUV-navy.jpg",
 
     },
 ]
 
-export { cards }
+export { cards };
