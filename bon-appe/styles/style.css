@@ -9,20 +9,44 @@ html,
 }
 
 
+
+html, 
+body *{
+  font-size: 22px;
+}
+
+
 :root {
   --blue:#2447e2;
-  --red: #f8717f;
+  --light-blue: rgb(102, 168, 255);
+  --dark-red: #e7273a;
+  --light-red: #e97979;
 
   --primary: var(--blue);
   --secondary: var(--red);
 
 }
+
+.blue {
+  --primary: var(--blue);
+  --secondary: var(--light-blue);
+  background-color: var(--light-blue);
+}
+
+.red {
+  --primary: var(--dark-red);
+  --secondary: var(--light-red);
+  background-color: var(--light-red);
+}
+
+
 .theme {
   background-color: var(--primary);
 }
 
 .ribbon {
-  
+  --primary: var(--blue);
+  --secondary: var(--light-red);
 }
 
 
