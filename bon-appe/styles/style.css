@@ -9,13 +9,6 @@ html,
 }
 
 
-
-html, 
-body *{
-  font-size: 22px;
-}
-
-
 :root {
   --blue:#2447e2;
   --light-blue: rgb(102, 168, 255);
@@ -23,7 +16,7 @@ body *{
   --light-red: #e97979;
 
   --primary: var(--blue);
-  --secondary: var(--red);
+  --secondary: var(--dark-red);
 
 }
 
@@ -49,6 +42,11 @@ body *{
   --secondary: var(--light-red);
 }
 
+.cards {
+  display: flex;
+  flex-direction: row;
+  
+}
 
 
 

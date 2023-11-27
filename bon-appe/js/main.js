@@ -13,6 +13,7 @@ document.querySelector("#theme-button").addEventListener("click", function() {
   }
 });
 
+
 function insertAll() {
   cards.forEach((stuff) => DOMSelectors.cards.insertAdjacentHTML("beforeend", 
   `<div class="card" id="all">
