@@ -1,5 +1,5 @@
 import "../styles/style.css";
-import { cards } from "./cards";
+import { stuff } from "./cards";
 import { DOMSelectors } from "./Dom";
 
 document.querySelector("#theme-button").addEventListener("click", function() {
@@ -13,7 +13,80 @@ document.querySelector("#theme-button").addEventListener("click", function() {
   }
 });
 
-function insertAll() {
+function insertCard(stuff) {
+  document.querySelector(".cards").insertAdjacentHTML(
+    "beforeend",
+    `<div class="card">
+      <h2 class = "text">${stuff.name}</h2>
+      <img src=${stuff.image} alt="" class="card-img">
+      <h2 class = "text"> ${stuff.speed}, ${stuff.usage}</h2>
+    </div>`
+  );
+}
+
+stuff.forEach((result) => {
+  insertCard(result);
+});
+
+const remove = function () {
+  document.querySelectorAll(".card").forEach((card) => card.remove());
+};
+
+const mapData = function () {
+  stuff.map((connect) => ({
+          name: connect.name,
+          divison: connect.division,
+          speed: connect.speed,
+          usage: connect.usage,
+          image: connect.image,
+      })
+    )
+};
+
+function order(type) {DOMSelectors[type].addEventListener("click", function () {
+  remove();
+  mapData();
+  stuff.filter((el) => el.division.includes(type)).forEach((el) => {
+    insertCard(el);
+  });
+})};
+
+order("army");
+order("navy");
+order("air");
+order("weapon");
+
+
+/* function addRibbon (arr) {
+  arr.forEach(cards => {
+    DOMSelectors.cards.insertAdjacentHTML( "beforeend",
+    `<div class="card">
+      <h2 class="card-name"> ${cards.name}</h2>
+      <img src="${cards.image}" alt="${cards.name}" class="picture">
+      <h3 class="info"> ${cards.speed}, ${cards.usage}</h3>
+  </div>
+  `)
+})};
+
+addRibbon(stuff);
+
+function remove() {
+    DOMSelectors.cards.innerHTML="";
+}
+
+let ribbon = document.querySelectorAll('button');
+
+ribbon.forEach((choice) => choice.addEventListener("click", function () {
+    let connect = choice.textContent;
+    let display = stuff.filter((element) => element.division === connect);
+    remove();
+    addRibbon(display);
+})); */
+
+
+
+
+/* function insertAll() {
   cards.forEach((stuff) => DOMSelectors.cards.insertAdjacentHTML("beforeend", 
   `<div class="card" id="all">
       <h2 class="card-name"> ${stuff.name}</h2>
@@ -98,28 +171,4 @@ DOMSelectors.weapon.addEventListener("click", function () {
   insertWeapons();
 });
 
-insertAll();
-
-
-/* import viteLogo from '/vite.svg' */
-
-/* document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite?</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
-`
-
-/* setupCounter(document.querySelector('#counter')) 
- */
+insertAll(); */
