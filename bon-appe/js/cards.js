@@ -1,4 +1,4 @@
-const cards = [
+const stuff = [
     {
         name: "A-10 warthog",
         division: "air force",
@@ -217,4 +217,4 @@ const cards = [
     },
 ]
 
-export { cards };
+export { stuff };
