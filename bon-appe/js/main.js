@@ -2,7 +2,7 @@ import "../styles/style.css";
 import { stuff } from "./cards";
 import { DOMSelectors } from "./Dom";
 
-/*document.querySelector("#theme-button").addEventListener("click", function() {
+/*document.querySelector(".theme-button").addEventListener("click", function() {
   if(document.body.classList.contains("blue")) {
     document.body.classList.add("red");
     document.body.classList.remove("blue");
@@ -57,7 +57,18 @@ order("air");
 order("weapon"); */
 
 
-/* function addRibbon (arr) {
+/* document.querySelector(".theme-button").addEventListener("click", function() {
+  if(document.body.classList.contains("blue")) {
+    document.body.classList.add("red");
+    document.body.classList.remove("blue");
+  }
+  else {
+    document.body.classList.add("blue");
+    document.body.classList.remove("red");
+  }
+}); 
+
+function addRibbon (arr) {
   arr.forEach(cards => {
     DOMSelectors.cards.insertAdjacentHTML( "beforeend",
     `<div class="card">
@@ -83,7 +94,7 @@ ribbon.forEach((choice) => choice.addEventListener("click", function () {
     addRibbon(display);
 })); */
 
-document.querySelector("#theme-button").addEventListener("click", function() {
+document.querySelector(".theme-button").addEventListener("click", function() {
   if(document.body.classList.contains("blue")) {
     document.body.classList.add("red");
     document.body.classList.remove("blue");

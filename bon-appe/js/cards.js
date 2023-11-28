@@ -100,7 +100,7 @@ const stuff = [
         division: "air",
         speed: "fast",
         usage: ["support","transport"],
-        image: "/lmvt-m1078.jpg",
+        image: "/LMXT-refueler.jpg",
 
     },
     {

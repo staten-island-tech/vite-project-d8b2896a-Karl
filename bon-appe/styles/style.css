@@ -48,6 +48,11 @@ html,
   
 }
 
+.card {
+  display: flexbox;
+  flex-basis: 80%;
+}
+
 
 
 
