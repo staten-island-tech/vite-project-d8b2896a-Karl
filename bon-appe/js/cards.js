@@ -1,7 +1,7 @@
 const stuff = [
     {
         name: "A-10 warthog",
-        division: "air force",
+        division: "air",
         speed: "fast",
         usage: ["gunner","support"],
         image: "/A-10-warthog.jpg",
@@ -33,7 +33,7 @@ const stuff = [
     },
     {
         name: "B2 Bomber",
-        division: "air force",
+        division: "air",
         speed: "fast",
         usage: ["Artillery"," Bomber"],
         image: "/B2-Bomber.jpg",
@@ -49,7 +49,7 @@ const stuff = [
     },
     {
         name: "F16 Fighter Jet",
-        division: "air force",
+        division: "air",
         speed: "fast",
         usage: ["combat","attack"],
         image: "/F16-fighter.webp",
@@ -57,7 +57,7 @@ const stuff = [
     },
     {
         name: "F22 Raptor",
-        division: "air force",
+        division: "air",
         speed: "fast",
         usage: ["combat","attack"],
         image: "/f22-raptor.jpg",
@@ -97,7 +97,7 @@ const stuff = [
     },
     {
         name: "LMXT Refuler",
-        division: "air force",
+        division: "air",
         speed: "fast",
         usage: ["support","transport"],
         image: "/lmvt-m1078.jpg",
@@ -169,7 +169,7 @@ const stuff = [
     },
     {
         name: "MQ 9 Reaper UAV",
-        division: "air force",
+        division: "air",
         speed: "fast",
         usage: ["combat","convoy"],
         image: "/mq-9-reaper.webp",
