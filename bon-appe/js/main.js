@@ -2,7 +2,7 @@ import "../styles/style.css";
 import { stuff } from "./cards";
 import { DOMSelectors } from "./Dom";
 
-document.querySelector("#theme-button").addEventListener("click", function() {
+/*document.querySelector("#theme-button").addEventListener("click", function() {
   if(document.body.classList.contains("blue")) {
     document.body.classList.add("red");
     document.body.classList.remove("blue");
@@ -54,7 +54,7 @@ function order(type) {DOMSelectors[type].addEventListener("click", function () {
 order("army");
 order("navy");
 order("air");
-order("weapon");
+order("weapon"); */
 
 
 /* function addRibbon (arr) {
@@ -83,64 +83,71 @@ ribbon.forEach((choice) => choice.addEventListener("click", function () {
     addRibbon(display);
 })); */
 
+document.querySelector("#theme-button").addEventListener("click", function() {
+  if(document.body.classList.contains("blue")) {
+    document.body.classList.add("red");
+    document.body.classList.remove("blue");
+  }
+  else {
+    document.body.classList.add("blue");
+    document.body.classList.remove("red");
+  }
+});
 
-
-
-/* function insertAll() {
-  cards.forEach((stuff) => DOMSelectors.cards.insertAdjacentHTML("beforeend", 
+function insertAll() {
+  stuff.forEach((item) => DOMSelectors.cards.insertAdjacentHTML("beforeend", 
   `<div class="card" id="all">
-      <h2 class="card-name"> ${stuff.name}</h2>
-      <img src="${stuff.image}" alt="${stuff.name}" class="picture">
-      <h3 class="info"> ${stuff.speed}, ${stuff.usage}</h3>
+    <h2 class="card-name">${item.name}</h2>
+    <img src="${item.image}" alt="${item.name}" class="image">
+    <h3 class="info">${item.speed}, ${item.usage}</h3>
   </div>
   `)
   );
 }
 
 function insertNavy() {
-  const find = cards.filter((stuff) => stuff.division.includes("navy"));
-  find.forEach((stuff) => DOMSelectors.cards.insertAdjacentHTML("beforeend",
+  const find = stuff.filter((item) => item.division.includes("navy"));
+  find.forEach((item) => DOMSelectors.cards.insertAdjacentHTML("beforeend",
   `<div class="card" id="navy">
-      <h2 class="card-name"> ${stuff.name}</h2>
-      <img src="${stuff.image}" alt="${stuff.name}" class="picture">
-      <h3 class="info"> ${stuff.speed}, ${stuff.usage}</h3>
+      <h2 class="card-name"> ${item.name}</h2>
+      <img src="${item.image}" alt="${item.name}" class="image">
+      <h3 class="info"> ${item.speed}, ${item.usage}</h3>
   </div>
   `)
   );
 }
 
 function insertArmy() {
-  const find = cards.filter((stuff) => stuff.division.includes("army"));
-  find.forEach((stuff) => DOMSelectors.cards.insertAdjacentHTML("beforeend",
+  const find = stuff.filter((item) => item.division.includes("army"));
+  find.forEach((item) => DOMSelectors.cards.insertAdjacentHTML("beforeend",
   `<div class="card" id="army">
-      <h2 class="card-name"> ${stuff.name}</h2>
-      <div>
-      <img src="${stuff.image}" alt="${stuff.name}" class="picture">
-      <h3 class="info"> ${stuff.speed}, ${stuff.usage}</h3>
+    <h2 class="card-name">${item.name}</h2>
+    <img src="${item.image}" alt="${item.name}" class="image">
+    <h3 class="info">${item.speed}, ${item.usage}</h3>
   </div>
   `)
   );
 }
 
 function insertAirForce() {
-  const find = cards.filter((stuff) => stuff.division.includes("air force"));
-  find.forEach((stuff) => DOMSelectors.cards.insertAdjacentHTML("beforeend",
-  `<div class="card" id="air-force">
-      <h2 class="card-name"> ${stuff.name}</h2>
-      <img src="${stuff.image}" alt="${stuff.name}" class="picture">
-      <h3 class="info"> ${stuff.speed}, ${stuff.usage}</h3>
+  const find = stuff.filter((item) => item.division.includes("air"));
+  find.forEach((item) => DOMSelectors.cards.insertAdjacentHTML("beforeend",
+  `<div class="card" id="air">
+    <h2 class="card-name">${item.name}</h2>
+    <img src="${item.image}" alt="${item.name}" class="image">
+    <h3 class="info">${item.speed}, ${item.usage}</h3>
   </div>
   `)
   );
 }
 
 function insertWeapons() {
-  const find = cards.filter((stuff) => stuff.division.includes("weapon"));
-  find.forEach((stuff) => DOMSelectors.cards.insertAdjacentHTML("beforeend",
+  const find = stuff.filter((item) => item.division.includes("weapon"));
+  find.forEach((item) => DOMSelectors.cards.insertAdjacentHTML("beforeend",
   `<div class="card" id="weapons">
-      <h2 class="card-name"> ${stuff.name}</h2>
-      <img src="${stuff.image}" alt="${stuff.name}" class="picture">
-      <h3 class="info"> ${stuff.speed}, ${stuff.usage}</h3>
+      <h2 class="card-name"> ${item.name}</h2>
+      <img src="${item.image}" alt="${item.name}" class="picture">
+      <h3 class="info"> ${item.speed}, ${item.usage}</h3>
   </div>
   `)
   );
@@ -171,4 +178,4 @@ DOMSelectors.weapon.addEventListener("click", function () {
   insertWeapons();
 });
 
-insertAll(); */
+insertAll();
