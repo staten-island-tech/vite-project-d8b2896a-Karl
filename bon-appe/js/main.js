@@ -2,7 +2,9 @@ import "../styles/style.css";
 import { stuff } from "./cards";
 import { DOMSelectors } from "./Dom";
 
-/*document.querySelector(".theme-button").addEventListener("click", function() {
+
+//uses map instead of matching button text with cards
+document.querySelector(".theme-button").addEventListener("click", function() {
   if(document.body.classList.contains("blue")) {
     document.body.classList.add("red");
     document.body.classList.remove("blue");
@@ -19,7 +21,7 @@ function insertCard(stuff) {
     `<div class="card">
       <h2 class = "text">${stuff.name}</h2>
       <img src=${stuff.image} alt="" class="card-img">
-      <h2 class = "text"> ${stuff.speed}, ${stuff.usage}</h2>
+      <h2 class = "info"> Speed: ${stuff.speed} <br> Usage: ${stuff.usage}</h2>
     </div>`
   );
 }
@@ -51,12 +53,14 @@ function order(type) {DOMSelectors[type].addEventListener("click", function () {
   });
 })};
 
+order("all");
 order("army");
 order("navy");
 order("air");
-order("weapon"); */
+order("weapon");
 
 
+//second code (failed)
 /* document.querySelector(".theme-button").addEventListener("click", function() {
   if(document.body.classList.contains("blue")) {
     document.body.classList.add("red");
@@ -94,7 +98,10 @@ ribbon.forEach((choice) => choice.addEventListener("click", function () {
     addRibbon(display);
 })); */
 
-document.querySelector(".theme-button").addEventListener("click", function() {
+
+
+//first code, works but is very long
+/* document.querySelector(".theme-button").addEventListener("click", function() {
   if(document.body.classList.contains("blue")) {
     document.body.classList.add("red");
     document.body.classList.remove("blue");
@@ -190,3 +197,4 @@ DOMSelectors.weapon.addEventListener("click", function () {
 });
 
 insertAll();
+ */
