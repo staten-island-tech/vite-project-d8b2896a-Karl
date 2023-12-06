@@ -4,7 +4,7 @@ import { DOMSelectors } from "./Dom";
 
 
 //uses map instead of matching button text with cards
- document.querySelector(".theme-button").addEventListener("click", function() {
+  document.querySelector(".theme-button").addEventListener("click", function() {
   if(document.body.classList.contains("blue")) {
     document.body.classList.add("red");
     document.body.classList.remove("blue");
@@ -57,11 +57,11 @@ order("all");
 order("army");
 order("navy");
 order("air");
-order("weapon");
+order("weapon"); 
 
 
-//second code (failed)
-/* document.querySelector(".theme-button").addEventListener("click", function() {
+//second code
+/*  document.querySelector(".theme-button").addEventListener("click", function() {
   if(document.body.classList.contains("blue")) {
     document.body.classList.add("red");
     document.body.classList.remove("blue");
@@ -73,12 +73,12 @@ order("weapon");
 }); 
 
 function addRibbon (arr) {
-  arr.forEach(cards => {
+  arr.forEach(stuff => {
     DOMSelectors.cards.insertAdjacentHTML( "beforeend",
     `<div class="card">
-      <h2 class="card-name"> ${cards.name}</h2>
-      <img src="${cards.image}" alt="${cards.name}" class="picture">
-      <h3 class="info"> ${cards.speed}, ${cards.usage}</h3>
+    <h2 class = "text">${stuff.name}</h2>
+    <img src=${stuff.image} alt="" class="card-img">
+    <h2 class = "info"> Speed: ${stuff.speed} <br> Usage: ${stuff.usage}</h2>
   </div>
   `)
 })};
@@ -92,11 +92,13 @@ function remove() {
 let ribbon = document.querySelectorAll('button');
 
 ribbon.forEach((choice) => choice.addEventListener("click", function () {
-    let connect = choice.textContent;
+    let connect = choice.textContent.toLowerCase;
     let display = stuff.filter((element) => element.division === connect);
     remove();
     addRibbon(display);
-})); */
+}));  */
+
+
 
 
 
